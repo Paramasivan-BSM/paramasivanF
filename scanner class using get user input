@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class main
+{
+	public static void main(String[] args) {
+		Scanner myObj=new Scanner(System.in);
+		System.out.println("your name");
+		System.out.println("your age");
+		System.out.println("your salary");
+	
+		String name;
+		int age=20;
+		float salary=10000;
+		char initial= 'B';
+		
+		name=myObj.nextLine();
+		age=myObj.nextInt();
+		salary=myObj.nextFloat();
+		
+	
+		
+
+		System.out.println("your name is: " + name +initial);
+		System.out.println("your age is:" +age);
+		System.out.println("your salary is:" + salary);
+		
+	}
+}
