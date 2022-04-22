@@ -1,0 +1,17 @@
+public class main{
+	public static void main(String[] args) {
+		int totalmark=100;
+		int studentmark=75;
+		int passmark=35;
+		{
+			if(100>35)
+			System.out.println("eligible to promotion");
+		
+		
+			else
+			System.out.println("not eligible to promotion");
+		}
+		
+		
+	}
+}
