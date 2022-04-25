@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner myObj=new Scanner(System.in);
+		System.out.println("enter the day");
+		int day=1;
+		int hour=24;
+		int miniute=60;
+		int second=60;
+		int result=1*24*60*60*60;
+	   day=myObj.nextInt();
+		System.out.println("the second for your days: "+result);		
+		
+	}
+}
