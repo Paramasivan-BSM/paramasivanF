@@ -1,0 +1,19 @@
+ class dog
+{
+	String name;
+	String colour;
+	double weight;
+	 static void pet()
+	 {
+	 	System.out.println("This is pet shop");
+	 }
+
+}	
+	
+public class Main {
+	public static void main(String[] args) {
+	dog animal=new dog();
+	animal.name="duberman";
+	System.out.println(animal.name);
+	}
+}
