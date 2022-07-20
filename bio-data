@@ -1,0 +1,61 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("                                                 RESUME  ");
+	
+		String name="yyyyy";
+		System.out.println("Name:" + name);
+		String emailid="yyyyy645@gmail.com";
+		System.out.println("Email:" + emailid);
+		int mobileno=1234567890;
+		System.out.println("mobileno:" + mobileno);
+	String address="2/3/45" + 
+	                             "\n west car street " + 
+	                               "\n thirunelveli";
+	                 System.out.println("Address:" + address);
+	                 System.out.println("________________________________________________________________________________________________________________________________________________________________Personal details____________________________________________________");
+	                 String name1="yyyyy";
+	                 String fathername="yyyy";
+	                 String religion ="hindu";
+	                 String nationality="indian";
+	                 String status="single";
+	                 String dob="00/00/0000";
+	                 String age="20";
+	                 String gender="male";
+	                 
+	                 System.out.println("Name:" + name1);
+	                 System.out.println("religion:" + religion);
+	                 System.out.println("Nationality:" + nationality);
+	                 System.out.println("Status:" + status);
+	                 System.out.println("date of birth:" + dob);
+	                 System.out.println("Age:" + age);
+	                 System.out.println("Gender:"+ gender);
+	                 System.out.println("________________________________________________________________________________________________________________________________________________________________Education Details___________________________________________________");
+	                 
+		 String tenth="abc school";
+		 String twelth="abc school";
+		 String degeree="MCA";
+		 String job="software engineer";
+		 String specialtalent="good programming skill";
+		 System.out.println("School of 10std:"+tenth);
+		 System.out.println("School of 12std:" + tenth);
+		 System.out.println("Graduation:"+degeree);
+		 System.out.println("Skill:"+specialtalent);
+		 System.out.println("Expected job:" + job);
+		 System.out.println("__________________________________________________________________________________________________________________________________________________________________end of list_______________________________________________________");
+Scanner scanner=new Scanner(System.in);
+System.out.println("place:");
+String place=scanner.nextLine();
+System.out.println("date");
+String date=scanner.nextLine();
+System.out.println("___________________________________________________________________________________________________________");
+System.out.println("singnature");
+String singnature=scanner.nextLine();
+System.out.println("                       ...................................thankyou............................................................");
+
+	 
+            
+		
+		
+	}
+}
