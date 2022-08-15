@@ -1,0 +1,19 @@
+class car{
+	String colour;
+	int speed;
+	
+	car()
+	{
+	 String colour="red";
+	 int speed=100;
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+	car audi=new car();
+
+
+	System.out.println(audi.colour);
+		System.out.println(audi.speed);
+	}
+}
