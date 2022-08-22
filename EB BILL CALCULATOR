@@ -1,0 +1,54 @@
+import java.util.*;
+public class Electric_bill
+{
+    String name=" ";
+    int units;
+    double bill=0.0d;
+    void accept()
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter consumer name: ");
+        name=in.nextLine();
+        System.out.println("Enter units consumed: ");
+        units=in.nextInt();
+    }
+    void calculate()
+    {
+        if(units<=100)
+            bill=2*units;
+        else if(units<=300)
+            bill=(2*100)+(3*(units-100));
+        else
+            bill=(2*100)+(3*200)+(5*(units-300));
+        if(units>300)
+            bill=bill+(bill*2.5/100);
+    }
+    void print()
+    {
+        System.out.println("Consumer's name: "+name+"\nUnits consumed: "+units+"\nAmount to pay: "+bill);
+    }
+   void bill()
+   {
+   	System.out.println("*************************" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*" + 
+   	                   "*");
+   	System.out.println("your bill is:");
+   }
+    public static void main(String[] args) 
+    {
+        Electric_bill ob=new Electric_bill();
+        ob.accept();
+        ob.calculate();
+        ob.bill();
+        ob.print();
+        
+    }
+}
