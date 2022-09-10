@@ -1,1 +1,83 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piano</title>
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+    <div class="control-panel">
+        <div class="notes hr">
+            <button class="sound1">Sound1</button>
+            <button class="sound3">Sound3</button>
+        </div>
+        <div class="notes hr">
+            <button class="sound2">Sound2</button>
+            <button class="original">Orginal</button>
+        </div>
+        <div class="navfb">
+            <button class="backward hr">
+            <i class="fa fa-backward"></i>
+            </button>
+            <button class="forward hr">
+            <i class="fa fa-forward"></i>
+        </button>
+        </div>
+        <div class="transpose">
+            <i class="fa fa-plus"></i>
+            <p class="pt">Transpose</p>
+            <i class="fa fa-minus"></i>
+        </div>
+    </div>
+        <div class="wrapper">
+        <button class="btn white" value="261.63"></button>
+        <div class="btnb black">
+        <button class="bt btn" value="277.18"></button>
+        </div>
+        <button class="btn white" value="293.66"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="311.13"></button>
+        </div>
+        <button class="btn white" value="329.63"></button>
+        <button class="btn white" value="349.23"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="369.99"></button>
+        </div>
+        <button class="btn white" value="392.00"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="415.30"></button>
+        </div>
+        <button class="btn white" value="440.00"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="466.16"></button>
+        </div>
+        <button class="btn white" value="493.88"></button>    
+        <button class="btn white" value="523.25"></button>
+        <div class="btnb black">
+        <button class="bt btn" value="554.37"></button>
+        </div>
+        <button class="btn white" value="587.33"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="622.25"></button>
+        </div>
+        <button class="btn white" value="659.25"></button>
+        <button class="btn white" value="698.46"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="739.99"></button>
+        </div>
+        <button class="btn white" value="783.99"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="830.61"></button>
+        </div>
+        <button class="btn white" value="880.00"></button>
+        <div class="btnb black">
+            <button class="bt btn" value="932.33"></button>
+        </div>
+        <button class="btn white" value="987.77"></button>
+        </div>
+    </body>
+</html>
