@@ -1,0 +1,178 @@
+package bank.management.system;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Mr_Alfeus
+ */
+public class BankManagementSystem {
+
+    static public int amount = 0;
+    static public String name = "";  
+    
+    public static void open(String s,int n) {                         // case 1
+    
+       try{
+           
+     System.out.println("Enter your name: ");
+     
+     Scanner in1 = new Scanner(System.in);
+   name = in1.nextLine();
+   
+    BankManagementSystem.amount = 0;
+       
+       {System.out.println("Account name is: " + name );
+        System.out.println ("Account balance = " + amount);}
+         
+       }
+       
+       catch(Exception e)
+       {System.out.println ("Error! " + e);}
+    
+             }
+    static public void deposit(String s, int n)                        // case 2
+    {
+     System.out.println("Enter the amount to deposit: ");
+      
+     try{
+     Scanner in1 = new Scanner(System.in);
+    int a = in1.nextInt();
+    if (name.isEmpty()){
+    System.out.println("no account found!! please open an account");
+    }
+    
+    else{
+    
+     BankManagementSystem.amount = amount + a;
+     System.out.println("Deposit was sucessfull!!");
+     System.out.println("Current balance = " + amount);
+    
+            } 
+      }
+       catch(Exception e)
+       {System.out.println ("");}
+     
+            }
+    
+    static public void withdraw(String s, int n){                      // case 3
+    
+          System.out.println("Enter the amount to be withdrawn: ");
+          Scanner in1 = new Scanner(System.in);
+          int a = in1.nextInt();
+         
+          try{
+          if(!(name.isEmpty()))
+          if (amount < a){
+          BankManagementSystem.amount = amount-0;
+          System.out.println("Out of balance, Current balance = " + amount);}
+          else{
+               BankManagementSystem.amount = amount -a;
+                  System.out.println("Transaction succesful, Current balance = " + amount);
+          
+          }
+          
+          else{
+          System.out.println("no account found!! please open an account");
+          }
+          
+             }
+          
+       catch(Exception e)
+       {System.out.println ("Error! " + e);}
+    }
+    
+    static public void check(String s,int n){                          // case 4
+    
+        if(name.isEmpty()){
+            
+             System.out.println("no account found!! please open an account");
+        }
+             else{
+        System.out.println("Account " + name + " Current balance = " + BankManagementSystem.amount);
+                     }
+        
+        }
+    
+        static public void close(String s,int n){                      // case 5
+ 
+         if(name.isEmpty()){
+         
+         System.out.println("no account found!! please open an account");}   
+         else{
+        
+        BankManagementSystem.amount = 0;   
+        System.out.println("Account " + name + " closed!!!");
+        name = "";
+         }
+        }
+        static public void main(String [] args){
+    
+  
+        System.out.println("1. Open Account");
+        System.out.println("2. Deposit");
+        System.out.println("3. Withdraw");
+        System.out.println("4. Check Balance");
+        System.out.println("5. Close Account");
+        
+        System.out.println("-----------------------");
+        System.out.println("<--Enter your choice-->");
+        System.out.println("-----------------------");
+        
+        try{
+        Scanner in = new Scanner(System.in);
+        int c = in.nextInt();
+        String s = new String();
+        
+        int n=0;
+        
+        switch(c){
+            case 1: open(s,n);
+                break;
+                
+            case 2: deposit(s,n);
+                break;
+               
+            case 3: withdraw(s,n);
+                break;
+                
+            case 4: check(s,n);
+                break;
+                
+            case 5: close(s, n);
+                break;
+                
+            default:
+                System.out.println("Invalid option!!");
+                break;      
+        }
+            System.out.println("Press 0 to close...");
+            System.out.println("Press any other number(s) to continue...");
+            
+            Scanner in5 = new Scanner(System.in);
+            
+            int r=in5.nextInt();
+            
+            if(!(r==0))
+            {
+                String[] s2 = null;
+                 System.out.println("");
+                main(s2);}
+        
+             }
+       catch(Exception e)
+       {System.out.println ("Error! " + e);
+       
+       String[] d = null;
+        System.out.println("");
+        main(d);}
+            
+        }
+    
+}
+
+/* code created by ALFEUS NGHLINGANYE 
+@ IUM 
+cell. +264812436118 
+st. 160027942
+*/
