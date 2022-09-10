@@ -1,8 +1,0 @@
-public class Main {
-	public static void main(String[] args) {
-		int number = 100;
-		int newnumber= number*2;
-		System.out.println("THE number is" + number);
-		System.out.println("THE number is"+number*2);
-	}
-}
