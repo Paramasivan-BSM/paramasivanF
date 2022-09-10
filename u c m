@@ -1,0 +1,90 @@
+import java.util.Scanner;
+class Su
+{
+	static void method1()
+	{
+		System.out.println(".............................................Tn best university.......................................");
+		String un1="1.Anna university";
+		String un2="2..kamaraj university";
+		String un3="3..ms university";
+		System.out.println(un1);
+		System.out.println(un2);
+		System.out.println(un3);
+		System.out.println("-______________________________________________________________________________________________________________________________________________");
+		System.out.println("Selet any one university");
+		
+		Scanner scanner=new Scanner(System.in);
+		int sw=scanner.nextInt();
+		switch(sw)
+		{
+		case 1:
+		System.out.println("Anna university");
+		
+		System.out.println("under college for ANNA UNIVERSITY:");
+		System.out.println("1..SIVET college of engineering");
+		System.out.println("2..pachaiyappas college");
+		System.out.println("3..loyolo college");		
+		break;
+		case 2:
+		System.out.println("kamaraj university");
+		String[] ucku=new String[3];
+		ucku[0]="Ambiga college";
+		ucku[1]="spactambas college";
+		ucku[2]="meenakshi college";
+		System.out.println("under college for kamarai university:" );
+		System.out.println(ucku[0]);
+		System.out.println(ucku[1]);
+		System.out.println(ucku[2]);
+		break;
+		case 3:
+		System.out.println("manonmaniam sundharanar university");
+		 System.out.println("under college for ms university");
+		 String[] msucn={"srnyc","j.p","usp"};
+		 System.out.println(msucn[0]);
+		 System.out.println(msucn[1]);
+		 System.out.println(msucn[2]);
+		 System.out.println("________________________________________________________________________________________________________________________________________________");                  
+		}
+}
+}
+class student
+{
+	 public static void method2()
+	{
+		
+		
+	}
+}
+class sd
+{
+	static void method2()
+	{
+		
+		System.out.println("........................................................STUDENT DETAILES............................................................................................................................................................");
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("NAME:");
+		String sn=scanner.nextLine();
+		System.out.println("SELECT A COLLEGE:");
+		String cn=scanner.nextLine();
+		System.out.println("Enter your 12std marks:");
+		String[] ms=new String[5];
+		ms[0]="TAMIL:";
+		ms[1]="ENGLISH:";
+		ms[2]="MATHS:";
+		ms[3]="SCIENCE:";
+		ms[4]="SOCIALSCIENCE:";
+		System.out.println(ms[0]);
+		ms[0]=scanner.nextLine();
+	}
+	
+}
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println(".......................................welcome to online tamilnadu college addmisions......................................");
+	Su obj=new Su();
+	Su.method1();
+	sd myObj=new sd();
+	sd.method2();	
+	}
+}
