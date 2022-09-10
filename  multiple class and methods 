@@ -1,0 +1,59 @@
+import java.util.Scanner;
+class addmision
+{
+	public static void college()
+	{
+		System.out.println("____________________________________________________Select a university___________________________________________" );
+		String name="1..Anna university";
+		String name1="2..kamaraj university";
+		String name2="3..monomaniyam sundaranar univercsty";
+		System.out.println(name);
+		System.out.println(name1);
+		System.out.println(name2);
+		System.out.println("___________________________________________________________________________________________________________________________________________________________________________________________________________________________________");
+		
+		Scanner scanner=new Scanner(System.in);
+		name=scanner.nextLine();
+	}
+}
+	class subcollegeau
+	{
+		public static void method1()
+		{
+	
+		String auscname1="SIVET college of engineering";
+		String auscname2="loyolo college of arts and science";
+		String auscname3="pachaiyappas college";
+		System.out.println("________________________________________________________________________________________________________________________________________________");
+		System.out.println("under the college for Anna university:");
+		System.out.println(auscname1);
+		System.out.println(auscname2);
+		System.out.println(auscname3);
+		System.out.println("____________________________________________________________________________________________________________________________________________________________________________________________________________________________________");
+		Scanner scanner1=new Scanner(System.in);
+		auscname1=scanner1.nextLine();
+		System.out.println("course of SIVET COLLEGE:");
+		System.out.println("..............................................................");
+		String coursesivet1="COMPUTER ENGINEERING";
+		String coursesivet2="MECHANICAL ENGINEERING";
+		String coursesivet3="BACHOLER OF TECHNOLOGY";
+		System.out.println(coursesivet1);
+		System.out.println(coursesivet2);
+		System.out.println(coursesivet3);
+		System.out.println("________________________________________________________________");
+		auscname1=scanner1.nextLine();
+		
+	}
+	}
+		
+	
+	
+public class Main {
+	public static void main(String[] args) {
+		addmision myObj=new addmision();
+		addmision.college();
+		subcollegeau chennai=new subcollegeau();
+		subcollegeau.method1();
+	
+	}
+}
