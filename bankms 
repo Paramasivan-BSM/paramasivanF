@@ -1,0 +1,35 @@
+import java.util.Scanner;
+import java.util.Arrays;
+class bank
+{
+	String[] bank_management_system={"1.create account","2.withdraw","3.deposit"};
+}
+
+// 1st case 
+class create_account
+{
+	Scanner scanner=new Scanner(System.in);
+	{
+		System.out.println("Enter your name");
+		String name=scanner.nextLine();
+		 
+		 if (name==name)
+		 {
+		 	System.out.println("account created sucessfully");
+		 }
+		 
+		
+		
+		
+
+		
+		
+		
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+	bank bms=new bank();
+	create_account bms1=new create_account();
+	}
+}
