@@ -35,4 +35,14 @@
 {
   float:left;
 }
+#heading {
+  background-color:#2ec4b6;
+  color: white;
+  animation: NNN 5s infinite;
+}
+
+@keyframes NNN {
+  50% {
+    box-shadow: 10px 20px 30px #2ec4b6;
+  }
 -->
