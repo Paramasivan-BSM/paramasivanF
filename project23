@@ -1,1 +1,38 @@
-NNN WebSite
+<!--html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+
+
+  <title>Document</title>
+</head>
+<body>
+  <div id="heading">
+    <img src="#" id="clgLogo">
+  <h1 id="clgName">SRI RAM NALLAMANI YADAVA COLLEGE OF ARTS AND SCIENCE</h1>
+    
+    <div>
+</body>
+</html>
+-->
+<!--css
+#heading
+{
+  background-color:#2ec4b6;
+  display:flex;
+  color:white;
+  justify-content:center;
+  padding:10%;
+}
+#heading >#clgName{
+  font-family: 'Artifika';font-size: 22px;
+}
+#clgLogo
+{
+  float:left;
+}
+-->
